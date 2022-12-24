@@ -3,3 +3,46 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* center the header */
+header {
+  text-align: center;
+}
+
+
+/* center the image */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* center the nav links and give them a gb-color*/
+nav a {
+  padding: 10px;
+  background-color: grey;
+}
+
+/* shrink the font size of image caption and center it*/
+figcaption {
+  font-size: small;
+  text-align: center;
+}
+
+/* center the text block with #feature-property, width-800px,  */
+#featured-property p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  text-align: center;
+
+}
+
+/* Make our #details section horizontal */
+#details div {
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
